@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CC42C9018CF122E00992014 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC42C8F18CF122E00992014 /* Foundation.framework */; };
+		3CC42C9218CF122E00992014 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC42C9118CF122E00992014 /* CoreGraphics.framework */; };
+		3CC42C9418CF122E00992014 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC42C9318CF122E00992014 /* UIKit.framework */; };
+		3CC42C9A18CF122E00992014 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CC42C9818CF122E00992014 /* InfoPlist.strings */; };
+		3CC42C9C18CF122E00992014 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC42C9B18CF122E00992014 /* main.m */; };
+		3CC42CA018CF122E00992014 /* AttributorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC42C9F18CF122E00992014 /* AttributorAppDelegate.m */; };
+		3CC42CA318CF122E00992014 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC42CA118CF122E00992014 /* Main.storyboard */; };
+		3CC42CA618CF122E00992014 /* AttributorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC42CA518CF122E00992014 /* AttributorViewController.m */; };
+		3CC42CA818CF122E00992014 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC42CA718CF122E00992014 /* Images.xcassets */; };
+		3CC42CAF18CF122E00992014 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC42CAE18CF122E00992014 /* XCTest.framework */; };
+		3CC42CB018CF122E00992014 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC42C8F18CF122E00992014 /* Foundation.framework */; };
+		3CC42CB118CF122E00992014 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC42C9318CF122E00992014 /* UIKit.framework */; };
+		3CC42CB918CF122E00992014 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CC42CB718CF122E00992014 /* InfoPlist.strings */; };
+		3CC42CBB18CF122E00992014 /* loginQQTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC42CBA18CF122E00992014 /* loginQQTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CC42CB218CF122E00992014 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CC42C8418CF122E00992014 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CC42C8B18CF122E00992014;
+			remoteInfo = loginQQ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CC42C8C18CF122E00992014 /* loginQQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loginQQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC42C8F18CF122E00992014 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3CC42C9118CF122E00992014 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3CC42C9318CF122E00992014 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3CC42C9718CF122E00992014 /* loginQQ-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "loginQQ-Info.plist"; sourceTree = "<group>"; };
+		3CC42C9918CF122E00992014 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3CC42C9B18CF122E00992014 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CC42C9D18CF122E00992014 /* loginQQ-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "loginQQ-Prefix.pch"; sourceTree = "<group>"; };
+		3CC42C9E18CF122E00992014 /* AttributorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttributorAppDelegate.h; sourceTree = "<group>"; };
+		3CC42C9F18CF122E00992014 /* AttributorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributorAppDelegate.m; sourceTree = "<group>"; };
+		3CC42CA218CF122E00992014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CC42CA418CF122E00992014 /* AttributorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttributorViewController.h; sourceTree = "<group>"; };
+		3CC42CA518CF122E00992014 /* AttributorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributorViewController.m; sourceTree = "<group>"; };
+		3CC42CA718CF122E00992014 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3CC42CAD18CF122E00992014 /* loginQQTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loginQQTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC42CAE18CF122E00992014 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3CC42CB618CF122E00992014 /* loginQQTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "loginQQTests-Info.plist"; sourceTree = "<group>"; };
+		3CC42CB818CF122E00992014 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3CC42CBA18CF122E00992014 /* loginQQTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loginQQTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CC42C8918CF122E00992014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC42C9218CF122E00992014 /* CoreGraphics.framework in Frameworks */,
+				3CC42C9418CF122E00992014 /* UIKit.framework in Frameworks */,
+				3CC42C9018CF122E00992014 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC42CAA18CF122E00992014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC42CAF18CF122E00992014 /* XCTest.framework in Frameworks */,
+				3CC42CB118CF122E00992014 /* UIKit.framework in Frameworks */,
+				3CC42CB018CF122E00992014 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CC42C8318CF122E00992014 = {
+			isa = PBXGroup;
+			children = (
+				3CC42C9518CF122E00992014 /* loginQQ */,
+				3CC42CB418CF122E00992014 /* loginQQTests */,
+				3CC42C8E18CF122E00992014 /* Frameworks */,
+				3CC42C8D18CF122E00992014 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CC42C8D18CF122E00992014 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CC42C8C18CF122E00992014 /* loginQQ.app */,
+				3CC42CAD18CF122E00992014 /* loginQQTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CC42C8E18CF122E00992014 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CC42C8F18CF122E00992014 /* Foundation.framework */,
+				3CC42C9118CF122E00992014 /* CoreGraphics.framework */,
+				3CC42C9318CF122E00992014 /* UIKit.framework */,
+				3CC42CAE18CF122E00992014 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CC42C9518CF122E00992014 /* loginQQ */ = {
+			isa = PBXGroup;
+			children = (
+				3CC42C9E18CF122E00992014 /* AttributorAppDelegate.h */,
+				3CC42C9F18CF122E00992014 /* AttributorAppDelegate.m */,
+				3CC42CA118CF122E00992014 /* Main.storyboard */,
+				3CC42CA418CF122E00992014 /* AttributorViewController.h */,
+				3CC42CA518CF122E00992014 /* AttributorViewController.m */,
+				3CC42CA718CF122E00992014 /* Images.xcassets */,
+				3CC42C9618CF122E00992014 /* Supporting Files */,
+			);
+			path = loginQQ;
+			sourceTree = "<group>";
+		};
+		3CC42C9618CF122E00992014 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CC42C9718CF122E00992014 /* loginQQ-Info.plist */,
+				3CC42C9818CF122E00992014 /* InfoPlist.strings */,
+				3CC42C9B18CF122E00992014 /* main.m */,
+				3CC42C9D18CF122E00992014 /* loginQQ-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CC42CB418CF122E00992014 /* loginQQTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CC42CBA18CF122E00992014 /* loginQQTests.m */,
+				3CC42CB518CF122E00992014 /* Supporting Files */,
+			);
+			path = loginQQTests;
+			sourceTree = "<group>";
+		};
+		3CC42CB518CF122E00992014 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CC42CB618CF122E00992014 /* loginQQTests-Info.plist */,
+				3CC42CB718CF122E00992014 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CC42C8B18CF122E00992014 /* loginQQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC42CBE18CF122E00992014 /* Build configuration list for PBXNativeTarget "loginQQ" */;
+			buildPhases = (
+				3CC42C8818CF122E00992014 /* Sources */,
+				3CC42C8918CF122E00992014 /* Frameworks */,
+				3CC42C8A18CF122E00992014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = loginQQ;
+			productName = loginQQ;
+			productReference = 3CC42C8C18CF122E00992014 /* loginQQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CC42CAC18CF122E00992014 /* loginQQTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC42CC118CF122E00992014 /* Build configuration list for PBXNativeTarget "loginQQTests" */;
+			buildPhases = (
+				3CC42CA918CF122E00992014 /* Sources */,
+				3CC42CAA18CF122E00992014 /* Frameworks */,
+				3CC42CAB18CF122E00992014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CC42CB318CF122E00992014 /* PBXTargetDependency */,
+			);
+			name = loginQQTests;
+			productName = loginQQTests;
+			productReference = 3CC42CAD18CF122E00992014 /* loginQQTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CC42C8418CF122E00992014 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Attributor;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = DadaoTech;
+				TargetAttributes = {
+					3CC42CAC18CF122E00992014 = {
+						TestTargetID = 3CC42C8B18CF122E00992014;
+					};
+				};
+			};
+			buildConfigurationList = 3CC42C8718CF122E00992014 /* Build configuration list for PBXProject "loginQQ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CC42C8318CF122E00992014;
+			productRefGroup = 3CC42C8D18CF122E00992014 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CC42C8B18CF122E00992014 /* loginQQ */,
+				3CC42CAC18CF122E00992014 /* loginQQTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CC42C8A18CF122E00992014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC42CA818CF122E00992014 /* Images.xcassets in Resources */,
+				3CC42C9A18CF122E00992014 /* InfoPlist.strings in Resources */,
+				3CC42CA318CF122E00992014 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC42CAB18CF122E00992014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC42CB918CF122E00992014 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CC42C8818CF122E00992014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC42CA018CF122E00992014 /* AttributorAppDelegate.m in Sources */,
+				3CC42CA618CF122E00992014 /* AttributorViewController.m in Sources */,
+				3CC42C9C18CF122E00992014 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC42CA918CF122E00992014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC42CBB18CF122E00992014 /* loginQQTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CC42CB318CF122E00992014 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CC42C8B18CF122E00992014 /* loginQQ */;
+			targetProxy = 3CC42CB218CF122E00992014 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CC42C9818CF122E00992014 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CC42C9918CF122E00992014 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3CC42CA118CF122E00992014 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CC42CA218CF122E00992014 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CC42CB718CF122E00992014 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CC42CB818CF122E00992014 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CC42CBC18CF122E00992014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3CC42CBD18CF122E00992014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CC42CBF18CF122E00992014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "loginQQ/loginQQ-Prefix.pch";
+				INFOPLIST_FILE = "loginQQ/loginQQ-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3CC42CC018CF122E00992014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "loginQQ/loginQQ-Prefix.pch";
+				INFOPLIST_FILE = "loginQQ/loginQQ-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3CC42CC218CF122E00992014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/loginQQ.app/loginQQ";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "loginQQ/loginQQ-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "loginQQTests/loginQQTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3CC42CC318CF122E00992014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/loginQQ.app/loginQQ";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "loginQQ/loginQQ-Prefix.pch";
+				INFOPLIST_FILE = "loginQQTests/loginQQTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CC42C8718CF122E00992014 /* Build configuration list for PBXProject "loginQQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC42CBC18CF122E00992014 /* Debug */,
+				3CC42CBD18CF122E00992014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC42CBE18CF122E00992014 /* Build configuration list for PBXNativeTarget "loginQQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC42CBF18CF122E00992014 /* Debug */,
+				3CC42CC018CF122E00992014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CC42CC118CF122E00992014 /* Build configuration list for PBXNativeTarget "loginQQTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC42CC218CF122E00992014 /* Debug */,
+				3CC42CC318CF122E00992014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CC42C8418CF122E00992014 /* Project object */;
+}
