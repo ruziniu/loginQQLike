@@ -21,6 +21,11 @@
     [self.qq resignFirstResponder];
     [self.qwd resignFirstResponder];
 }
+- (IBAction)cancelDown:(id)sender {
+    self.qq.text = nil;
+    self.qwd.text = nil;
+    [self.qq resignFirstResponder];
+}
 
 - (void)viewDidLoad
 {
