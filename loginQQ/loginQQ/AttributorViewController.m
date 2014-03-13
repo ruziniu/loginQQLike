@@ -25,6 +25,7 @@
     self.qq.text = nil;
     self.qwd.text = nil;
     [self.qq resignFirstResponder];
+    [self.qwd resignFirstResponder];
 }
 
 - (void)viewDidLoad
